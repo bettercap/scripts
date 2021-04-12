@@ -1,0 +1,1 @@
+BetterCAP session scripts, for more info check each README and [the documentation](http://bettercap.org/usage/scripting/).
