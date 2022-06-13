@@ -160,7 +160,7 @@ function onDeauthentication(event) {
             'Reason: ' + data.reason + "\n\n" +
             decorateAddress('Address1', data.address1) + "\n" +
             decorateAddress('Address2', data.address2)+ "\n" +
-            decorateAddress('Address3', data.address3) + "\n"
+            decorateAddress('Address3', data.address3) + "\n" +
             'AP:\n' + JSON.stringify(data.ap, null, 2);
 
 
