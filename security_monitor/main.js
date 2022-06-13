@@ -1,5 +1,6 @@
 require("config")
 require("telegram")
+require("weixin")
 require("functions")
 
 log("session script loaded, fake AP is " + fakeESSID);
