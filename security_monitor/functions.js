@@ -160,9 +160,11 @@ function onDeauthentication(event) {
             'Reason: ' + data.reason + "\n\n" +
             decorateAddress('Address1', data.address1) + "\n" +
             decorateAddress('Address2', data.address2)+ "\n" +
-            decorateAddress('Address3', data.address3) + "\n" +
-            'AP:\n' + JSON.stringify(data.ap, null, 2);
+            decorateAddress('Address3', data.address3);
 
+        if(notifyDeauthApData) {
+            message += '\nAP:\n' + JSON.stringify(data.ap, null, 2);
+        }
 
         // send to telegram bot
         sendMessage(message);

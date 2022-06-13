@@ -6,6 +6,8 @@ var notifyUknownEndpoints = true;
 var notifyRogueAPs = true;
 // if true the system will trigger notifications for WiFi deauthentication frames
 var notifyDeauth = true;
+// append JSON information of the access point for deauth frames
+var notifyDeauthApData = false;
 // if true the system will trigger notifications for captured WiFi handshakes
 var notifyHandshakes = true;
 // if true the system will trigger notifications for IPv4 and IPv6 gateway changes
