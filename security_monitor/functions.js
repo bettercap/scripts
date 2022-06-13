@@ -184,8 +184,7 @@ function onHandshake(event){
         }
 
         var message = '💰 Captured ' + what + ':\n\n' +
-            'Station: ' + data.station + "\n" +
-            decorateAddress('Station', data.station) + "\n" 
+            decorateAddress('Station', data.station) + "\n" +
             decorateAddress('AP', data.ap);
 
         // send to telegram bot
